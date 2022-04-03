@@ -6,17 +6,19 @@ import Reviews from "./components/Reviews/Reviews";
 import DashBoard from "./components/DashBoard/DashBoard";
 import Blogs from "./components/Blogs/Blogs";
 import About from "./components/About/About";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/" element={<Home></Home>}></Route>
         <Route path="/reviews" element={<Reviews></Reviews>}></Route>
         <Route path="/dashboard" element={<DashBoard></DashBoard>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
