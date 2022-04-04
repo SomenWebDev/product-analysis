@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div className="container mt-5">
       <p>
         Bookque is an online bookstore with a mission to financially support
         local, independent bookstores. We believe that bookstores are essential
