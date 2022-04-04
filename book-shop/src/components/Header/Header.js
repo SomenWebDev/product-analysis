@@ -1,10 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import "./Header.css";
 const Header = () => {
   return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+    <div className="header">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="primary"
+        variant="dark"
+        className="nav"
+      >
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="mt-0">
