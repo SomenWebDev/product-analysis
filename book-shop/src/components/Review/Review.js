@@ -10,7 +10,7 @@ const Review = ({ reviews }) => {
           <Card.Img
             variant="top"
             src={imageURL}
-            style={{ borderRadius: "50%", width: "30px" }}
+            style={{ borderRadius: "50%", width: "50px" }}
             className="mx-auto mt-2"
           />
           <Card.Body>

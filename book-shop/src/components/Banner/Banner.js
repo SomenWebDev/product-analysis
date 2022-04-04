@@ -10,13 +10,9 @@ const Banner = () => {
           <Col xs={12} md={8}>
             <div className="description">
               <h1 className="fs-1 text-primary">Choose Your Favorite Book</h1>
-              <p>
-                The Art of War (Sunzi bingfa) is a 5th-century BCE military
-                treatise written by the Chinese strategist Sun-Tzu (aka Sunzi or
-                Sun Wu). Covering all aspects of warfare, it seeks to advise
-                commanders on how to prepare, mobilise, attack, defend, and
-                treat the vanquished.
-              </p>
+              <p></p>
+              In our Shop You can find all kind of books.Your satisfaction is
+              our priority.So,make it hurry.
             </div>
           </Col>
           <Col xs={12} md={4}>
