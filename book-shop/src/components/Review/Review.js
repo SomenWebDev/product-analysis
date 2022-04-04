@@ -6,7 +6,7 @@ const Review = ({ reviews }) => {
   return (
     <div>
       <Col>
-        <Card style={{ width: "18rem", height: "300px" }}>
+        <Card style={{ height: "300px" }}>
           <Card.Img
             variant="top"
             src={imageURL}

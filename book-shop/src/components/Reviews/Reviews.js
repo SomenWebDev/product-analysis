@@ -8,13 +8,16 @@ const Reviews = () => {
 
   return (
     <div className="my-5">
-      <Container>
-        <Row xs={1} md={3} className="g-3">
-          {allReviews.map((reviews) => (
-            <Review key={reviews._id} reviews={reviews}></Review>
-          ))}
-        </Row>
-      </Container>
+      <h1 className="text-center mb-5">What our Customers Say!</h1>
+      <div>
+        <Container>
+          <Row xs={1} md={3} className="g-4">
+            {allReviews.map((reviews) => (
+              <Review key={reviews._id} reviews={reviews}></Review>
+            ))}
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 };

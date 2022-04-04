@@ -15,6 +15,7 @@ const Home = () => {
         <Banner></Banner>
       </section>
       <section className="review-section my-5">
+        <h1 className="text-center mb-5">Customer Reviews</h1>
         <Container>
           <Row xs={1} md={3} className="g-3">
             {allReviews.slice(0, 3).map((reviews) => (

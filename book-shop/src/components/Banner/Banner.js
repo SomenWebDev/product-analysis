@@ -20,7 +20,7 @@ const Banner = () => {
             </div>
           </Col>
           <Col xs={12} md={4}>
-            <div className="ms-5">
+            <div className="text-center">
               <Image src={bookImage} />
             </div>
           </Col>
