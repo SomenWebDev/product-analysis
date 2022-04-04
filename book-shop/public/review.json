@@ -1,0 +1,54 @@
+[
+    {
+      "_id": "60d6dfd866b62508b45ee14b",
+      "name": "Daniel",
+      "review": "my order went through well organised and promptly delivered",
+      
+      "imageURL": "https://i.ibb.co/Bys0zGm/1553c197-1e24-4a1d-8f34-59224f946513-CR0-26-0-268-268-SX48.jpg",
+      "rating": "5/5"
+    },
+
+    {
+      "_id": "60d6e01966b62508b45ee14c",
+      "name": "C.A.Gray",
+      "review": "Great quick service - books well packed and preserved. Highly recommend this outlet to everybody",
+     
+      "imageURL": "https://i.ibb.co/6ZVz8yb/74c980f4-1e31-46d6-bab2-6f7fd8778526-CR0-0-840-840-SX48.jpg",
+      "rating": "5/5"
+    },
+    {
+      "_id": "60d728cf66b62508b45ee14d",
+      "name": "Jessica J",
+      "review": "Highly impressed by their service .",
+    
+      "imageURL": "https://i.ibb.co/GJZ07fL/470d5101-8fef-42a2-886d-a55f3be64a48-CR0-0-500-500-SX48.jpg",
+      "rating": "5/5"
+    },
+    {
+      "_id": "60d7290866b62508b45ee14e",
+      "name": "Mark Palettino",
+      "review": "Great service",
+     
+      "imageURL": "https://i.ibb.co/tCSWQDD/24a7f524-b14b-492c-b630-bb255a08bde4-CR0-0-500-500-SX48.jpg",
+      "rating": "5/5"
+    },
+    {
+      "_id": "60d7293a66b62508b45ee14f",
+      "name": "Tanner Christensen",
+      "review": "Great online experience",
+     
+      "imageURL": "https://i.ibb.co/kGWpHtM/efb59371-42d1-4b62-a1be-99d33839ab10-CR0-0-378-378-SX48.jpg",
+      "rating": "4.5/5"
+    },
+
+    {
+      "_id": "60d729bb66b62508b45ee150",
+      "name": "Bob",
+      "review": "This is perfect, definitely recommend.",
+     
+      "imageURL": "https://i.ibb.co/BrK7jVL/2f387108-c54d-43f4-b161-1691f91a2152-CR83-0-334-334-SX48.jpg",
+      "rating": "4.5/5"
+    }
+  
+    
+  ]

@@ -1,28 +1,32 @@
 import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
-import bookImage from "../../images/book.jpg";
+import Banner from "../Banner/Banner";
+import Review from "../Review/Review";
+
+import Reviews from "../Reviews/Reviews";
+import useReviews from "./../../hooks/useReviews";
+import { Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  const [allReviews, setAllReviews] = useReviews();
   return (
     <div>
       <section className="banner mt-5">
-        <Row>
-          <Col xs={12} md={8}>
-            <div className="description">
-              <h1 className="fs-1 text-primary">Choose Your Favorite Book</h1>
-              <p className="px-5">
-                The Art of War (Sunzi bingfa) is a 5th-century BCE military
-                treatise written by the Chinese strategist Sun-Tzu (aka Sunzi or
-                Sun Wu). Covering all aspects of warfare, it seeks to advise
-                commanders on how to prepare, mobilise, attack, defend, and
-                treat the vanquished.
-              </p>
-            </div>
-          </Col>
-          <Col xs={6} md={4}>
-            <Image src={bookImage} />
-          </Col>
-        </Row>
+        <Banner></Banner>
+      </section>
+      <section className="review-section my-5">
+        <Container>
+          <Row xs={1} md={3} className="g-3">
+            {allReviews.slice(0, 3).map((reviews) => (
+              <Review key={reviews._id} reviews={reviews}></Review>
+            ))}
+          </Row>
+        </Container>
+        <div className="container my-3 text-center">
+          <Link to="/reviews">
+            <button className="rounded">See All Reviews</button>
+          </Link>
+        </div>
       </section>
     </div>
   );
