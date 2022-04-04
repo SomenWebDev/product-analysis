@@ -16,7 +16,7 @@ const Review = ({ reviews }) => {
           <Card.Body>
             <p>{name}</p>
             <p> Review: {review}</p>
-            <p>{rating}</p>
+            <p>Rating: {rating}</p>
           </Card.Body>
         </Card>
       </Col>
